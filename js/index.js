@@ -1,3 +1,4 @@
-$(".scrollUp").on('click', function(){     
-    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-});
+$(".scrollUp").on("click", function topFunction(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
