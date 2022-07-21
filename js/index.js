@@ -1,3 +1,3 @@
-$(".scrollUp").on("click", function(){
-    console.log("you clicked the correct thing");
+$(".scrollUp").on('click', function(){     
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
 });
