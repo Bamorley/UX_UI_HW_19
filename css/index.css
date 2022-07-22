@@ -132,10 +132,10 @@ h4 {
     margin-left: 145px;
 }
 .caseStudies img {
-    margin-right: 20px; 
-    border: 3px solid #9FE2BF;
+    margin-right: 50px; 
     margin-left: auto;
     margin-bottom: 50px;
+    max-width: 500px;
 }
 .clarity img {
     margin-bottom: 100px;
@@ -614,14 +614,14 @@ hr.solid {
         display: none;
     }
     .pHero {
-        color:#323C3F;
+        color:#F8F8F8;
         margin: 20px 0px 50px 0px;  
         align-items: center;
         font-size: 18px;
         z-index: none;
     }    
     .hero h1 {
-        color:#323C3F;
+        color:#F8F8F8;
         margin: 40px 0;
         z-index: none;
     }
