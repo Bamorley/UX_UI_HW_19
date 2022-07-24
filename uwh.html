@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Resume</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="css/index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,7 +10,7 @@
     </head>
     <body>
         <header class="navigation">
-            <img src="images/logo.png" alt="bam in script text" class="bamLogo">
+            <a href="index.html"><img src="images/logo.png" alt="bam in script text" class="bamLogo"></a>
             <nav>
             <ul>
                 <li><a href=index.html class="navLink">PROJECTS</a></li>
@@ -29,19 +30,52 @@
             <h2 class="uwhH">Why they reached out</h2>
             <hr class="solid">
         </div>
+        <br>
         <p class="uwhP">The Chicago Underwater Hockey Team is a not-for-profit organization, and they do not have the budget to build a professional website. A board member requested that our team provide UX/UI recommendations to help improve their website and recruiting efforts.</p>
+        <br>
         <h3 class="uwhH">Current Chicago Underwater Hockey Website</h3>
-        <div class="oldSite">
-            <img src="images/old-site-1.png">
-            <img src="images/old-site-2.png">
-            <img src="images/old-site-3.png">
-        </div>
+        <br>
+<!--Start bootstrap carousel-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="images/old-site-homepage.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/old-site-about.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/old-site-gallery.png" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/old-site-contact.png" alt="Fourth slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<!--End bootstrap carousel-->
+        <br>
+        <br>
         <br>
         <br>
         <div class="dividerLine">
             <h2 class="uwhH">Kicking things off with user interviews</h2>
             <hr class="solid">
         </div>
+        <br>
         <p class="uwhP">Our team conducted five user interviews, focusing on three groups:</p>
         <ul class="listFull">
             <li class="uwhList">UWH board members</li>
@@ -52,10 +86,13 @@
         </p>
         <br>
         <br> 
+        <br>
+        <br> 
         <div class="dividerLine">
             <h2 class="uwhH">Identifying user expectations</h2>
             <hr class="solid">
         </div>
+        <br>
         <div class="surveyResults">
             <div>
                 <p class="surveyP">We developed a comprehensive survey to better understand what people look for and expect to see on a club website. After analyzing the survey results, we identified the most commonly requested information.</p>
@@ -64,11 +101,14 @@
            <img src="images/survey-results.png" class="surveyImg">
         </div>
         <br>
+        <br>
+        <br> 
         <br> 
         <div class="dividerLine">
             <h2 class="uwhH">Choosing our “captain”</h2>
             <hr class="solid">
         </div>
+        <br>
         <p class="uwhP">Through user research, we identified three objectives for the Chicago Underwater Hockey site:</p>
         <ol  class="listFull">
             <li class="uwhList">Recruit new players who know little-to-nothing about the sport</li>
@@ -76,13 +116,16 @@
             <li class="uwhList">Offer veteran players advanced drills and workouts to take them to the next level</li>
         </ol>
         <p class="uwhP">Since the primary goal of the site is to aid recruitment efforts, we developed a user persona, Johanna, who represented our target audience.</p>
-        <img src="images/user-persona-690-288.png" class="userPersona">
+        <img src="images/user-persona-new.png" class="userPersona">
+        <br>
+        <br> 
         <br>
         <br> 
         <div class="dividerLine">
             <h2 class="uwhH">Creating a game plan</h2>
             <hr class="solid">
         </div>
+        <br>
         <div class="circleFull">
             <div class="circle1">
                 <p class="circleText">4 pages</p>
@@ -98,15 +141,19 @@
         </div>
         <br>
         <br> 
+        <br>
+        <br> 
         <div class="dividerLine">
             <h2 class="uwhH">Repping Chicago with our designs</h2>
             <hr class="solid">
         </div>
+        <br>
         <div class="logos"> 
             <img src="images/old-logo.png">
             <i class="arrow right"></i>
             <img src="images/new-logo.png">
         </div>
+        <br>
         <p class="uwhP">Whether it's the Bears, Cubs, or Blackhawks, Chicagoans love their sports teams. We knew it was important to the Chicago Underwater Hockey team that we represent their Chicago flag on our site. Our color scheme faithfully followed the official city of Chicago colors, while still maintaining accessibility with our color contrast choices.</p>
         <p class="uwhP">Through our user interviews, we learned that users found the current Chicago Underwater Hockey logo confusing. We simplified the logo and removed the hard-to-read copy.</p>
         <br>
@@ -115,6 +162,7 @@
             <h2 class="uwhH">Diving into designs and iterations</h2>
             <hr class="solid">
         </div>
+        <br>
         <div class="iterations">
             <img src="images/lo-fi-homepage.png">
             <i class="arrow right"></i>
@@ -122,8 +170,9 @@
             <i class="arrow right"></i>
             <img src="images/final-homepage.png">
         </div>
+        <br>
         <p class="uwhP">After user testing, we significantly revamped our homepage. We realized that our homepage had strayed from the original purpose of the site—recruitment. We needed to reformat the content to make sure that we made it incredibly easy for prospective players to find the information they needed.</p>
-        <p class="uwhP">For that reason, we</p>
+        <p class="uwhP">For that reason, we made the following iterations:</p>
         <ul class="listFull">
             <li class="uwhList">Moved the “Resources” section lower since that section was targeted to current players.</li>
             <li class="uwhList">Changed the “Connect with Us” section to an “Are You New Here” progress bar.</li>
@@ -136,22 +185,37 @@
             <hr class="solid">
         </div>
         <div class="winning">
+            <div class="finalDesigns">
             <img src="images/final-design.png"><br>
-            <button class="primaryButton">DESKTOP PROTOTYPE</button>
-            <button class="secondaryButton">MOBILE PROTOTYPE</button>
+            <img src="https://media.giphy.com/media/out47r3Hcfp5H5gr4b/giphy.gif">
+            </div>
+            <br>
+            <br>
+            <div class="uwhButtons">
+                <button class="primaryButton">DESKTOP PROTOTYPE</button>
+                <button class="secondaryButton">MOBILE PROTOTYPE</button>
+            </div>  
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
         <div>
             <h2 class="uwhH">End of regulation</h2>
             <div class="dividerLine"></div>
         </div>
+        <br>
         <h3 class="uwhH">Future iterations</h3>
+        <br>
         <ul class="listFull">
             <li class="uwhList">Create an alert banner that would notify players of practice cancellations.</li>
             <li class="uwhList">Continue user testing the homepage, in particular the four-step process. If this testing goes well, add “Are You New Here” progress bar added to all beginner pages.</li>
             <li class="uwhList">Iterate the “Rules of the Game” desktop page to make it clear for users that each section is scrollable.</li>
             <li class="uwhList">A/B split test “Resources” vs “Current Players” to identify which is easier to understand.</li>
         </ul>
+        <br>
         <h3 class="uwhH">Concluding Thoughts</h3>
+        <br>
         <ul class="listFull">
             <li class="uwhList">We made design decisions, such as the Chicago star divider lines, that may be difficult to replicate if you don't have experience with coding or developing websites. Chicago Underwater Hockey would need to simplify some pages before implementing our designs.</li>
             <li class="uwhList">As currently designed, the schedule page would require a significant amount of time update and maintain. In retrospect, we could have simplified the design and included a monthly calendar with a PDF download option.</li>
@@ -173,6 +237,9 @@
         <div class="scrollUp">
             <div class="scrollArrow">&#8593;</div>
         </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/index.js"></script>

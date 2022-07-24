@@ -66,7 +66,7 @@ nav li {
     width: 80%;
     margin-top: 50px;
     position: relative;
-    margin-bottom: 125px;
+    margin-bottom: 80px;
 }
 .heroImage {
     position: absolute;
@@ -86,7 +86,7 @@ nav li {
 }
 .heroContent{
     color:#F8F8F8;
-    top: 150px;
+    top: 200px;
     left: 50px;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
@@ -98,7 +98,7 @@ nav li {
 }
 .pHero {
     color:#F8F8F8;
-    top: 150px;
+    top: 200px;
     left: 161px;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
@@ -125,6 +125,9 @@ h4 {
     font-weight: 400;
     font-size: 20px;
 }
+.workingOn {
+    margin-bottom: 50px;
+}
 .uwh, .dol, .clarity {
     display: flex;
     align-items: top;
@@ -139,6 +142,9 @@ h4 {
 }
 .clarity img {
     margin-bottom: 100px;
+    margin-left: 130px;
+    margin-right: 130px;
+    max-height: 500px;
 }
 .uwhContent, .dolContent, .clarityContent {
     margin-right: 80px;
@@ -160,7 +166,7 @@ button {
     background-color: #A48596; 
     color: #F8F8F8;
     font-family: 'Alatsi', sans-serif;
-    width: 340px;
+    width: 250px;
     height: 42px;
     border: none;
     text-align: center;
@@ -176,11 +182,15 @@ button a {
 button:hover {
     background-color: #C2ADBC; 
 }
+button a:hover {
+    text-decoration: none;
+    color: #F8F8F8;
+}
 .secondaryButton {
     background-color: #F8F8F8; 
     color: #A48596;
     font-family: 'Alatsi', sans-serif;
-    width: 340px;
+    width: 250px;
     height: 42px;
     border: 2px solid #A48596;
     text-align: center;
@@ -230,8 +240,9 @@ footer {
     border-radius: 50%;
     height: 300px;
     width: auto;
-    margin-right: 20px;
+    margin-right: 60px;
     margin-left: 100px;
+    margin-top: 50px;
 }
 .aboutMe {
     display: flex;
@@ -256,6 +267,9 @@ footer {
     display: inline-block; 
     width: 1em;
     margin-left: -1em;
+  }
+  .experience, .education, .skills {
+    margin-top: 75px;
   }
 /*end Resume bulleted lists*/
 /*Resume top section*/
@@ -374,6 +388,10 @@ hr.solid {
     justify-content: center;
     align-items: flex-start;
 }
+.carousel {
+    max-width: 700px;
+    margin: auto;
+}
 .listFull {
     width: 800px; 
     margin-left: 160px;
@@ -408,7 +426,7 @@ hr.solid {
     margin-right: 20px;
 }
 .userPersona {
-    max-width: 690px;
+    max-width: 900px;
     margin: auto;
 }
 .circle1 { 
@@ -429,7 +447,7 @@ hr.solid {
     z-index: 1;
 }
 .circleText {
-    padding-top: 15px;
+    padding-top: 33px;
     text-align: center;
     color: #F8F8F8;
     font-family: 'Alatsi', sans-serif;
@@ -478,12 +496,19 @@ hr.solid {
 .iterations img {
     max-width: 271px;
 }
-.winning {
-    margin: auto; 
+.finalDesigns {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
 }
-.winning img {
-    margin-bottom: 20px;
+.uwhButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
 /*end uwh case study body copy*/
 /*next case study preview*/
 .grayBox {
@@ -576,7 +601,10 @@ hr.solid {
         margin: 60px 10px 0px 10px;
     }
     .clarity img {
-        margin: 60px 10px 0px 10px;
+        margin-top: 60px;
+        margin-bottom: 0px;
+        max-width: 300px;
+        margin: auto; 
     }
     .clarity button {
         margin-bottom: 50px;
@@ -665,6 +693,11 @@ hr.solid {
         margin-left: 10px;
     }
 }
+@media screen and (min-width: 601px) and (max-width: 1120px) {
+    .secondaryButton {
+        margin-top: 20px;
+    }
+}
 .scrollUp {
     background-color: #9FE2BF;
     border: 2px solid #9FE2BF;
@@ -678,7 +711,7 @@ hr.solid {
     box-shadow: 1px 1px 10px gray
 }
 .scrollArrow {
-    padding-top: 13px;
+    padding-top: 10px;
     text-align: center;
     color: #323C3F;
     font-family: 'Alatsi', sans-serif;
