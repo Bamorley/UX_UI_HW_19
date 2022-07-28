@@ -708,7 +708,8 @@ hr.solid {
     position: fixed; 
     bottom: 20px;
     right: 20px;
-    box-shadow: 1px 1px 10px gray
+    box-shadow: 1px 1px 10px gray;
+    cursor: pointer;
 }
 .scrollArrow {
     padding-top: 10px;
@@ -717,4 +718,5 @@ hr.solid {
     font-family: 'Alatsi', sans-serif;
     font-size: 20px;
     font-weight: 400;
+    cursor: pointer;
 }
